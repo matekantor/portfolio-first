@@ -11,35 +11,40 @@
 
 <body>
     <header>
-        <div class="logo">
-            <img src="" alt="">
+        <div class="header-logo-container">
+            <img class="logo" src="./resources/Call-of-Duty-Modern-Warfare-4-logo.webp" alt="">
         </div>
-        <div class="title">A Very Serious(!) Random Quote Generator</div>
+        <div class="header-title">This is a Very Serious(!) Random Quote Generator</div>
     </header>
     <main>
         <div class="title-div">
             <h1>
-                Welcome to the very serious quote generator page!
+                Welcome to the very serious quote generator page
             </h1>
+            <p>It turned out to be a Call Of Duty Modern Warefare death quote generator</p>
         </div>
         <div class="main-container">
-            <div class="quote">
-                <p>"</p>
-                <p>
+            <div class="quote-container">
+                <p class="quote-start">"</p>
+                <p id="quote">
                     some generated quote
                 </p>
-                <p>"</p>
+                <p class="qoute-end">"</p>
             </div>
-            <div class="author">and here goes the author</div>
+            <div class="author-container"><p id="author">and here goes the author</p></div>
+        </div>
+        <div>
+            <button id="new-quote">Give me another one!</button>
         </div>
     </main>
     <footer>
         <div class="contact">
+            <p>Contact</p>
             <ul>
                 <li>metthew7@gmail.com</li>
-                <li><a href="https://www.linkedin.com/in/matekantor/"><img src="./resources/linkedinlogo.png"
-                            alt="linkedin"></a></li>
                 <li>and i wont put my phone number here :)</li>
+                <li><a href="https://www.linkedin.com/in/matekantor/"><img src="./resources/linkedinlogo.png" class="linkedin"
+                    alt="linkedin"></a></li>
             </ul>
         </div>
         <div class="idea">

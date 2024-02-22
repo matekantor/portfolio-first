@@ -356,8 +356,11 @@ const quotes = [
         quote: "Every tyrant who has lived has believed in freedom author: - for himself.",
         author: "- Elbert Hubbard"
     },
+];
 
+let quote = (quotes) => {
+    let randomNumber = Math.floor(Math.random() * quotes.length);
+    return quotes[randomNumber];
+}
 
-
-]
-
+console.log(quote(quotes));
