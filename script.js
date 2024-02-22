@@ -15,7 +15,7 @@ const quotes = [
     },
 
     {
-        quote: "War does not determine who is right author: - only who is left",
+        quote: "War does not determine who is right - only who is left",
         author: "- Burtrand Russell"
     },
 
@@ -152,7 +152,7 @@ const quotes = [
     },
 
     {
-        quote: "If the wings are traveling faster than the fuselage, it's probably a helicopter author: -author: - and therefore, unsafe.",
+        quote: "If the wings are traveling faster than the fuselage, it's probably a helicopter - and therefore, unsafe.",
         author: "- Unknown"
     },
     {
@@ -190,7 +190,7 @@ const quotes = [
     },
 
     {
-        quote: "There are only two kinds of people that understand Marines: Marines and the enemy. Everyone else has a secondauthor: -hand opinion.",
+        quote: "There are only two kinds of people that understand Marines: Marines and the enemy. Everyone else has a second-hand opinion.",
         author: "- General William Thornson"
     },
 
@@ -282,12 +282,12 @@ const quotes = [
     },
 
     {
-        quote: "In war, you win or lose, live or die author: - and the difference is just an eyelash.",
+        quote: "In war, you win or lose, live or die - and the difference is just an eyelash.",
         author: "- General Douglas MacArthur"
     },
 
     {
-        quote: "You cant say civilization dont advance author: - for in every war, they kill you in a new way.",
+        quote: "You cant say civilization dont advance - for in every war, they kill you in a new way.",
         author: "- Will Rogers"
     },
 
@@ -302,7 +302,7 @@ const quotes = [
     },
 
     {
-        quote: "Any soldier worth his salt should be antiauthor: -war. And still, there are things worth fighting for.",
+        quote: "Any soldier worth his salt should be anti-war. And still, there are things worth fighting for.",
         author: "- General Norman Schwarzkopf"
     },
 
@@ -334,7 +334,7 @@ const quotes = [
     },
 
     {
-        quote: "Cluster bombing from Bauthor: -52s are very, very, accurate. The bombs are guaranteed to always hit the ground.",
+        quote: "Cluster bombing from B-52s are very, very, accurate. The bombs are guaranteed to always hit the ground.",
         author: "- USAF Ammo Troop"
     },
 
@@ -344,7 +344,7 @@ const quotes = [
     },
 
     {
-        quote: "The bursting radius of a handauthor: -grenade is always one foot greater than your jumping range.",
+        quote: "The bursting radius of a hand-grenade is always one foot greater than your jumping range.",
         author: "- Unknown"
     },
     {
@@ -353,7 +353,7 @@ const quotes = [
     },
 
     {
-        quote: "Every tyrant who has lived has believed in freedom author: - for himself.",
+        quote: "Every tyrant who has lived has believed in freedom - for himself.",
         author: "- Elbert Hubbard"
     },
 ];
