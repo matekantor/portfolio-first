@@ -307,48 +307,48 @@ const quotes = [
     },
 
     {
-        quote: ",It is fatal to enter any war without the will to win it.",
+        quote: "It is fatal to enter any war without the will to win it.",
         author: "- General Douglas MacArthur"
     },
     {
-        quote: ",Let your plans be as dark and impenetrable as night, and when you move, fall like a thunderbolt.",
+        quote: "Let your plans be as dark and impenetrable as night, and when you move, fall like a thunderbolt.",
         author: "- Sun Tzu"
     },
 
     {
-        quote: ",Anyone, who truly wants to go to war, has truly never been there before!",
+        quote: "Anyone, who truly wants to go to war, has truly never been there before!",
         author: "- Larry Reeves"
     },
 
     {
-        quote: ",Whoever said the pen is mightier than the sword obviously never encountered automatic weapons.",
+        quote: "Whoever said the pen is mightier than the sword obviously never encountered automatic weapons.",
         author: "- General Douglas MacArthur"
     },
     {
-        quote: ",Whoever does not miss the Soviet Union has no heart. Whoever wants it back has no brain.",
+        quote: "Whoever does not miss the Soviet Union has no heart. Whoever wants it back has no brain.",
         author: "- Vladimir Putin"
     },
     {
-        quote: ",My first wish is to see this plague of mankind, war, banished from the earth.",
+        quote: "My first wish is to see this plague of mankind, war, banished from the earth.",
         author: "- George Washington"
     },
 
     {
-        quote: ",Cluster bombing from Bauthor: -52s are very, very, accurate. The bombs are guaranteed to always hit the ground.",
+        quote: "Cluster bombing from Bauthor: -52s are very, very, accurate. The bombs are guaranteed to always hit the ground.",
         author: "- USAF Ammo Troop"
     },
 
     {
-        quote: ",If a man has done his best, what else is there?",
+        quote: "If a man has done his best, what else is there?",
         author: "- General George S.Patton"
     },
 
     {
-        quote: ",The bursting radius of a handauthor: -grenade is always one foot greater than your jumping range.",
+        quote: "The bursting radius of a handauthor: -grenade is always one foot greater than your jumping range.",
         author: "- Unknown"
     },
     {
-        quote: ",The tyrant always talks as if he's preserving the best interests of his people when he actually acts to undermine them.",
+        quote: "The tyrant always talks as if he's preserving the best interests of his people when he actually acts to undermine them.",
         author: "- Ramman Kenoun"
     },
 
@@ -363,4 +363,27 @@ let quote = (quotes) => {
     return quotes[randomNumber];
 }
 
-console.log(quote(quotes));
+let anotherQuote = quote(quotes);
+
+function displayQuote() {
+    let newQuote = quote(quotes);
+    let quoteDisplay = document.getElementById('quote');
+    let authorDisplay = document.getElementById('author');
+    quoteDisplay.textContent = '" ' + newQuote.quote + ' "';
+    authorDisplay.textContent = newQuote.author;
+}
+
+let quoteButton = document.getElementById('new-quote');
+quoteButton.addEventListener('click', displayQuote);
+
+// function compareQuotes(quote1, quote2){
+//     while(quote1.author === quote2.author){
+//         quote2 = quote(quotes);
+//     }
+
+//     return true;
+// }
+
+// function playGame(compare,)
+
+
